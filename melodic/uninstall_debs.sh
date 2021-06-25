@@ -1,0 +1,22 @@
+#!/bin/bash
+sudo apt remove ros-melodic-ur-dashboard-msgs -y
+sudo apt remove ros-melodic-ur-robot-driver -y
+sudo apt remove ros-melodic-ur-calibration -y
+sudo apt remove ros-melodic-ur10-moveit-config -y
+sudo apt remove ros-melodic-summit-xl-common -y
+sudo apt remove ros-melodic-summit-xl-control -y
+sudo apt remove ros-melodic-summit-xl-description -y
+sudo apt remove ros-melodic-summit-xl-localization -y
+sudo apt remove ros-melodic-summit-xl-navigation -y
+sudo apt remove ros-melodic-summit-xl-pad -y
+sudo apt remove ros-melodic-poi-manager-msgs -y
+sudo apt remove ros-melodic-poi-manager -y
+sudo apt remove ros-melodic-system-monitor -y
+sudo apt remove ros-melodic-sick-s300-laser -y
+sudo apt remove ros-melodic-rbkairos-common -y
+sudo apt remove ros-melodic-rbkairos-control -y
+sudo apt remove ros-melodic-rbkairos-description -y
+sudo apt remove ros-melodic-teb-local-planner -y
+sudo apt remove ros-melodic-mjpeg-server -y
+sudo apt remove ros-melodic-gazebo-ros-pkgs -y
+sudo apt remove ros-melodic-roboticsgroup-gazebo-plugins -y
