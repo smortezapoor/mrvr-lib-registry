@@ -1,22 +1,5 @@
 #!/bin/bash
-sudo dpkg -i ros-melodic-ur-dashboard-msgs*
-sudo dpkg -i ros-melodic-ur-robot-driver*
-sudo dpkg -i ros-melodic-ur-calibration*
-sudo dpkg -i ros-melodic-ur10-moveit-config*
-sudo dpkg -i ros-melodic-summit-xl-common*
-sudo dpkg -i ros-melodic-summit-xl-control*
-sudo dpkg -i ros-melodic-summit-xl-description*
-sudo dpkg -i ros-melodic-summit-xl-localization*
-sudo dpkg -i ros-melodic-summit-xl-navigation*
-sudo dpkg -i ros-melodic-summit-xl-pad*
-sudo dpkg -i ros-melodic-poi-manager-msgs*
-sudo dpkg -i ros-melodic-poi-manager*
-sudo dpkg -i ros-melodic-system-monitor*
-sudo dpkg -i ros-melodic-sick-s300-laser*
-sudo dpkg -i ros-melodic-rbkairos-common*
-sudo dpkg -i ros-melodic-rbkairos-control*
-sudo dpkg -i ros-melodic-rbkairos-description*
-sudo dpkg -i ros-melodic-teb-local-planner*
-sudo dpkg -i ros-melodic-mjpeg-server*
-sudo dpkg -i ros-melodic-gazebo-ros-pkgs*
-sudo dpkg -i ros-melodic-roboticsgroup-gazebo-plugins*
+sudo dpkg -i *.deb
+sudo apt update
+sudo apt install -f -y
+sudo dpkg -i *.deb
